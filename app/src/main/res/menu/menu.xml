@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.google.android.material.navigation.NavigationView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/addcontact"
+        android:title="Create New Contact"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/update"
+        android:title="Update Contact"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete Contact"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+
+
+</menu>
